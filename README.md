@@ -4,7 +4,7 @@
       <div style="width: 100%; text-align:center;">
         👋 Hi, I’m @triplepiers<br>
       	📖 Learning Software Engineering in ZJU<br>
-        There are some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a>, <a href="https://triplepiers.github.io/Learn-Vue/">Vue</a> and <a href="https://triplepiers.github.io/Learn-React/">React</a>.
+        There are some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a> and <a href="https://triplepiers.github.io/Notes_Collection/">Web</a>.
       </div>
     <td>
     <td width="50%">
