@@ -8,7 +8,7 @@
       </div>
     <td>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=triplepiers&hide_border=true&layout=compact&show_icons=true&theme=swift" align="left" style="width: 100%;" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=triplepiers&hide_border=true&layout=compact&show_icons=true&theme=swift&count_private=true" align="left" style="width: 100%;" />
     </td>
   </tr>
 <table>
