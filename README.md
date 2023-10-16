@@ -4,7 +4,8 @@
       <div style="width: 100%; text-align:center;">
         👋 Hi, I’m @triplepiers<br>
       	📖 Learning Software Engineering in ZJU<br>
-        There are some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a> and <a href="https://triplepiers.github.io/Notes_Collection/">Web</a>.</br>
+        There are some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a> and <a href="https://triplepiers.github.io/Notes_Collection/">Web</a></br>
+        And the <a href="https://gitlab.igem.org/2023/zju-china">Wiki Page</a> for iGEM ZJU-China 2023.</br>
         Infomations for ZJU-SE courses are @ <a href="https://github.com/triplepiers/Mad-at-ZJUSE">this repo</a>.
       </div>
     <td>
