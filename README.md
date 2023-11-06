@@ -19,7 +19,7 @@
   </tr>
 	<tr>
     <td colspan="2">
-      <div><b>Advertisement for our iGEM team <img src="https://static.igem.wiki/teams/4628/wiki/icon.svg"/ style="width:30px;height:30px;object-fit:contain;"></b></div>
+      <div style="display:flex;align-items:center;"><b>Advertisement for our iGEM team</b><img src="https://static.igem.wiki/teams/4628/wiki/icon.svg"/ style="width:30px;height:30px;object-fit:contain;"></div>
     </td>
   </tr>
 	<tr>
