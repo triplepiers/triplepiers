@@ -8,7 +8,7 @@
     <td width="50%">
       <div
         style="width: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; gap: 10px; padding-left: 30px;">
-        <div>👋 Hi, I'm @triplepiers</div>
+        <div>👋 Hi, I'm <b>Seabee</b> (since my favourite racehorse is called <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr. C.B.</a>)</div>
         <div>📖 Learning Software Engineering in ZJU</div>
         <li>Some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a> and <a
             href="https://triplepiers.github.io/Notes_Collection/">Web</a>.</li>
@@ -29,7 +29,7 @@
   </tr>
   <tr>
     <td colspan="2">
-      <li>What <a href="https://mp.weixin.qq.com/s/lsGOtzBY5XQWMQcOE7ttUg">ZJU-China 2023</a> have achived (Our
+      <li>What <a href="https://mp.weixin.qq.com/s/lsGOtzBY5XQWMQcOE7ttUg">ZJU-China 2023</a> has achived (Our
         Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>):
       </li>
       <div>
