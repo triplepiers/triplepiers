@@ -8,7 +8,8 @@
     <td width="50%">
       <div
         style="width: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; gap: 10px; padding-left: 30px;">
-        <div>👋 Hi, I'm <b>Seabee</b></br>(since my favourite racehorse is called <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr. C.B.</a>)</div>
+        <div>👋 Hi, I'm <b>Seabee</b></div>
+        <div><i>since my favourite racehorse is called <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr. C.B.</a>)</i></div>
         <div>📖 Learning Software Engineering in ZJU</div>
         <li>Some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a> and <a
             href="https://triplepiers.github.io/Notes_Collection/">Web</a>.</li>
