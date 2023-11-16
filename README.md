@@ -35,11 +35,11 @@
       </li>
       <div>
         <a href="https://jamboree.igem.org/2023/results#finalists" >
-          <img src="https://img1.imgtp.com/2023/11/06/8TdUd8xt.png" style="width:100%; padding:0 20px;" />
+          <img src="https://github.com/triplepiers/triplepiers/blob/main/JamboreeResult.png?raw=true" style="width:100%; padding:0 20px;" />
         </a>
       </div>
-      <li style="padding-top:10px;">The recruitment of 2024 member would start soon. Come
-        join us if you are interested in synthetic biology!
+      <li style="padding-top:10px;"><a href="https://mp.weixin.qq.com/s/Lw_KSLohFi8eFvuxDP_eRQ">The recruitment</a> of 2024 member is running. Come
+        join us!
       </li>
     </td>
   </tr>
