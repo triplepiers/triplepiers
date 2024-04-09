@@ -1,0 +1,115 @@
+.section2 {
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.basecard {
+    flex: 1;
+    height: 100%;
+    border: 1px solid var(--light);
+    padding: 5px 15px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(3px);
+}
+
+.basecard .basecard-title {
+    user-select: none;
+    position: relative;
+    width: 100%;
+    color: var(--hilight);
+    padding: 5px 0;
+}
+
+.basecard .basecard-title span {
+    padding-left: 1rem;
+    font-size: .8rem;
+}
+
+/* 部分下划线 */
+.basecard .basecard-title::after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    content: "";
+    display: block;
+    background-color: var(--hilight);
+    width: 200px;
+    height: 5px;
+}
+
+.basecard.main {
+    max-width: 800px;
+}
+
+.basecard.sideBar {
+    flex: 0 0 230px;
+    transition: flex .3s;
+}
+
+.basecard.sideBar[fold] {
+    flex: 0 0 0px;
+    padding: 0;
+    border: 0px solid transparent;
+    overflow: hidden;
+}
+
+.basecard.sideBar[fold] * {
+    opacity: 0;
+}
+
+.basecard.sideBar ul.menu {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    color: var(--light);
+    font-size: .9em;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.basecard.sideBar ul.menu li {
+    pointer-events: none;
+    user-select: none;
+    margin: 5px 0;
+    height: calc(1rem + 8px);
+    display: flex;
+    align-items: center;
+    /* 常态下不显示 */
+    opacity: 0;
+    transform: translateX(70%);
+    transition: .3s;
+    transition-delay: 0s;
+}
+
+/* menu Unfold 时显现 */
+.basecard.sideBar ul.menu.unfold li {
+    pointer-events: all;
+    transition-delay: calc(var(--i) * .1s);
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+/* 英文标题 */
+.basecard.sideBar ul.menu li span {
+    padding-left: 1em;
+    font-size: .8em;
+}
+
+/* hover */
+.basecard.sideBar ul.menu li:hover .hover {
+    margin-right: .5em;
+    width: 1em;
+}
+
+.basecard.sideBar ul.menu li .hover {
+    display: inline-block;
+    height: 100%;
+    background-color: var(--hilight);
+
+    margin-right: 0;
+    width: 0;
+    transition: .3s;
+}

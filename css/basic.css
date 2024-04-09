@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hilight: #24BBFF;
+    --light: #fff;
+    --gret: #7F7F7F;
+    --dark: #141516;
+    font-family: 'JetBrains Mono', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+    cursor: none;
+    background-image: url(../../img/main-background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section {
+    padding: 20px 30px;
+}
+
+/* 鼠标指针 */
+#cursor-inner {
+    pointer-events: none;
+    z-index: 999;
+    background-color: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* #cursor-outter {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s;
+} */
