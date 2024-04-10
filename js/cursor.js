@@ -1,8 +1,7 @@
 const cursors = [
-    document.getElementById("cursor-inner"),
-    // document.getElementById("cursor-outter")
-];
-
+    "#cursor-inner",
+    // "#cursor-outter"
+].map((tag) => { return document.querySelector(tag); });
 
 function moveCursors(e) {
     let { clientX, clientY } = e;

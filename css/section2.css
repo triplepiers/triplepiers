@@ -8,9 +8,9 @@
     height: 100%;
     border: 1px solid var(--light);
     padding: 5px 15px;
-    overflow-y: scroll;
     background-color: rgba(0, 0, 0, .2);
     backdrop-filter: blur(3px);
+    overflow-y: hidden;
 }
 
 .basecard .basecard-title {
@@ -71,6 +71,7 @@
 }
 
 .basecard.sideBar ul.menu li {
+    width: fit-content;
     pointer-events: none;
     user-select: none;
     margin: 5px 0;
@@ -84,12 +85,31 @@
     transition-delay: 0s;
 }
 
+
 /* menu Unfold 时显现 */
 .basecard.sideBar ul.menu.unfold li {
     pointer-events: all;
     transition-delay: calc(var(--i) * .1s);
     opacity: 1;
     transform: translateX(0%);
+}
+
+.basecard.sideBar ul.menu li .text {
+    position: relative;
+}
+
+/* 当前选中的一级菜单 */
+.basecard.sideBar ul.menu li .text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--hilight);
+    transition: width .6s;
+}
+.basecard.sideBar ul.menu li[active] .text::after {
+    width: 100%;
 }
 
 /* 英文标题 */

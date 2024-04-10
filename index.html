@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeaBee's Blog</title>
     <!-- FullPage.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./api/jquery.min.js"></script>
     <script src="./api/fullpage.js"></script>
     <link rel="stylesheet" href="./api/fullpage.min.css">
+    <!-- Typed.js -->
+    <script src="./api/typed.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="./css/basic.css">
     <link rel="stylesheet" href="./css/section2.css">
@@ -19,12 +19,18 @@
 <style>
     .section1 .main-title {
         fill: var(--light);
+        stroke: transparent;
+        stroke-width: 1.5;
+        stroke-linecap: round;
         width: 50%;
         transition: .6s;
     }
+
     .section1 .main-title:hover {
-        fill: var(--hilight);
+        fill: transparent;
+        stroke: var(--hilight);
     }
+
     .section1 .sub-title {
         color: var(--hilight);
     }
@@ -46,11 +52,10 @@
                     </path>
                 </svg>
             </div>
-            <div class="sub-title">
-                绝赞施工中...
-            </div>
+            <div class="sub-title">绝赞 <span id="typed"></span></div>
         </div>
-        <div class="section section2">
+        <!-- 此处 active 为调试用，部署时需删除 -->
+        <div class="section section2 active">
             <div class="basecard sideBar">
                 <div class="basecard-title">目录<span>Menu</span></div>
                 <ul class="menu"></ul>
@@ -60,47 +65,7 @@
             </div>
         </div>
     </div>
-
-    <script type="module">
-        import { genMenu, isSideBarFold } from './js/menu.js';
-        import { moveCursors } from './js/cursor.js';
-
-        let data = {
-            menu: [
-                ['板块 1', 'Block 1'],
-                ['板块 2', 'Block 2'],
-                ['板块 3', 'Block 3'],
-                ['板块 4', 'Block 4']
-            ]
-        }
-
-        $(document).ready(async function () {
-            // fullPage
-            $('#fullpage').fullpage({
-                // options here
-                scrollHorizontally: true,
-                continuousVertical: true, // 循环展示
-                // navigation: true,         // 显示 section 目录
-                // slidesNavigation: true,   // 显示 slide   目录
-                controlArrows: false,     // 隐藏 slide 横向滑箭头
-                scrollOverflow: false,    // 不然 section2 会寄
-            });
-            //methods
-            // $.fn.fullpage.setAllowScrolling(false); // 禁止滚动（只能方向键 / menu）
-
-            // section2
-            await genMenu(data.menu); // 生成目录项
-            isSideBarFold();          // 判断侧边目录是否展开
-        });
-
-        window.onresize = () => {
-            isSideBarFold();          // 判断侧边目录是否展开
-        }
-
-        window.onmousemove = (e) => {
-            moveCursors(e);           // 移动 cursor
-        }
-    </script>
+    <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
