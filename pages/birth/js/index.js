@@ -25,8 +25,22 @@ function initAnimation() {
     }, 5000)
 }
 
+function switchSection() {
+    let sections = document.querySelectorAll('.main section');
+    setTimeout(() => {
+        sections[0].classList.add('out');
+        sections[1].classList.add('in');
+    }, 4500);
+    setTimeout(() => {
+        sections[1].classList.remove('in');
+        sections[1].classList.add('out');
+        sections[2].classList.add('in');
+    }, 7000);
+}
+
 setAnimationDelay();
 window.onload = () => {
     document.body.classList.add('loaded');
     setTimeout(() => initAnimation(), 1000);
+    switchSection();
 }
