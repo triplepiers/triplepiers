@@ -1,7 +1,15 @@
 import { Paper } from './paper.js';
 import { clickEffect } from './clickEffect.js';
 
-window.onload = () => {
+function setAnimationDelay() {
+    document.querySelectorAll('[delay]').forEach((ele) => {
+        ele.style.animationDelay = ele.getAttribute('delay')*0.1 + 0.5 + 's';
+    })
+}
+
+function initAnimation() {
+    document.getElementById("loader").style.display = 'none';
+    document.getElementById("main").classList.add('show');
     var paper = new Paper({
         params: {
             width: window.innerWidth,     //背景图的宽
@@ -15,4 +23,10 @@ window.onload = () => {
         document.getElementById('paper').style.opacity = '0'; // 移除彩带画布
         clickEffect(); // 开始点击特效
     }, 5000)
+}
+
+setAnimationDelay();
+window.onload = () => {
+    document.body.classList.add('loaded');
+    setTimeout(() => initAnimation(), 1000);
 }
