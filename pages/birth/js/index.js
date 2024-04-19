@@ -61,11 +61,5 @@ setAnimationDelay();
 window.onload = () => {
     document.body.classList.add('loaded');
     setTimeout(() => initAnimation(), 1000);
-    switchSection(
-        durations=[4000, 2000, 3000],
-        stay=600,
-        gap=500,
-        init=500,
-        forward=true
-    );
+    switchSection([4000, 2000, 3000], 600, 500, 500, true);
 }
