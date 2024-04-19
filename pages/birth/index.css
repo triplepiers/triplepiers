@@ -222,6 +222,7 @@ body.loaded .load-container {
 }
 
 .main section {
+    pointer-events: none;
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -284,10 +285,11 @@ section.out {
 
 .main section.in {
     animation: showUp 1s ease forwards;
+    pointer-events: all;
 }
 
 .main section .btn {
-    margin-left: .5em;
+    margin-left: .3em;
     position: relative;
     padding: 0 .2em;
     cursor: pointer;
