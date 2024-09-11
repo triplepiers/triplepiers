@@ -9,7 +9,7 @@
       <div
         style="width: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; gap: 10px; padding-left: 30px;">
         <div>👋 Hi, this is <b>Seabee</b></div>
-        <div>📖 SE undergraduate @ ZJU</div>
+        <div>📖 Master @ ZJU</div>
         <li>Some notes for <a href="https://www.yuque.com/anishuoshimo/estifw?#">ZJUSE</a> and <a
             href="https://triplepiers.github.io/Notes_Collection/">Web</a>.</li>
         <li>Info for ZJU-SE courses are @ <a href="https://github.com/triplepiers/Mad-at-ZJUSE">this repo</a>.</li>
