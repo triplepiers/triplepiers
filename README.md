@@ -10,10 +10,14 @@ This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse
 
   
 - Need some tips for Software Engineering @ ZJU ?
-
+    <div style="display: flex; width: 100%;">
     <a href="https://github.com/triplepiers/Mad-at-ZJUSE">
         <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Mad-at-ZJUSE&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" />
     </a>
+    <a href="https://github.com/triplepiers/Crazy-ZZB">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Crazy-ZZB&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" />
+    </a>
+    </div>
 
 ## About iGEM
 
