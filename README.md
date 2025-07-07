@@ -5,11 +5,11 @@
 
 This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse is <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr.C.B.</a>), and here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a>
 
+- 📪 If you have any suggestions or questions, please mail to <a href="mailto:yunfengshen.x86@gmail.com">yunfengshen.x86@gmail.com</a>
 
-- Trying hard to get master degree @ <a href="https://www.zju.edu.cn/">ZJU</a>
-
+- Working toward a master degree @<a href="https://www.zju.edu.cn/">ZJU</a>
   
-- Need some tips for Software Engineering @ ZJU ?
+- Need some tips for Software Engineering @ZJU ?
     <div style="display: flex; width: 100%;">
     <a href="https://github.com/triplepiers/Mad-at-ZJUSE">
         <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Mad-at-ZJUSE&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" />
