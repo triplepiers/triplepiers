@@ -22,13 +22,15 @@ This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse
 ## About iGEM
 
 - Member of <a href="https://mp.weixin.qq.com/s/lsGOtzBY5XQWMQcOE7ttUg">ZJU-China 2023</a>, our
-Wiki page is @ <a href="https://2023.igem.wiki/zju-china/">here</a>.
+Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
   <a href="https://jamboree.igem.org/2023/results#finalists">
   <img src="https://github.com/triplepiers/triplepiers/blob/main/JamboreeResult.png?raw=true" style="width:550px;" />
   </a>
 
 - If you are also responsible for Wiki, you may need:
+
+  🎉 Congratulations! [Official React template](https://gitlab.igem.org/templates/wiki-react-vite) now available!
 
   | A naive turtorial (including the official template) | A Wiki template in <span style="color:#3FBA84;"><b>VUE</b></span> (has NOT completed yet) |
   | :--: | :--: |
