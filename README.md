@@ -42,7 +42,7 @@ Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
   | A naive turtorial (including the official template) | A Wiki template in <span style="color:#3FBA84;"><b>VUE</b></span> (has NOT completed yet) |
   | :--: | :--: |
-  | <a href="https://github.com/triplepiers/iGEM24-WP-Tutorial"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=iGEM24-WP-Tutorial&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt=""/>iGEM24-WP-Tutorial</a> | <a href="https://github.com/triplepiers/autoWiki"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=autoWiki&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21"  alt="autoWiki"/></a> |
+  | <a href="https://github.com/triplepiers/iGEM24-WP-Tutorial"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=iGEM24-WP-Tutorial&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt="iGEM24-WP-Tutorial"/></a> | <a href="https://github.com/triplepiers/autoWiki"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=autoWiki&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21"  alt="autoWiki"/></a> |
 
 ## ⚠️ 沉痛追悼
 
