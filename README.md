@@ -19,9 +19,8 @@ This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse
     </a>
     </div>
 
-- Commit Time: **A <span style="color:#3FBA84">total night owl</span>**
-  
-    ![Commit Time Radar](./imgs/github_commit_radar.png)
+<center><img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/github_commit_radar.png?raw=true" style="width: 350px;" /></center>
+<center>Commit Time: A <span style="color:#3FBA84">total night owl</span></center>
 
 ## About iGEM
 
