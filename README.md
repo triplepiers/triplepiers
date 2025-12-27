@@ -17,7 +17,7 @@ And here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a
         <img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa/api/pin/?username=triplepiers&repo=Mad-at-ZJUSE&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt="Mad-at-ZJUSE (过时的三本软工生存 Tip)"/>
     </a>
     <a href="https://github.com/triplepiers/Crazy-ZZB">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Crazy-ZZB&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt="Crazy-ZZB (学位(要溜走了..."/>
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Crazy-ZZB&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt="Crazy-ZZB (学位要溜走了)"/>
     </a>
     </div>
 
