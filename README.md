@@ -14,10 +14,10 @@ And here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a
 - Need some tips for Software Engineering @ZJU ?
     <div style="display: flex; width: 100%;">
     <a href="https://github.com/triplepiers/Mad-at-ZJUSE">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Mad-at-ZJUSE&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" />
+        <img align="center" src="https://github-readme-stats-git-masterrstaa-rickstaa/api/pin/?username=triplepiers&repo=Mad-at-ZJUSE&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt="Mad-at-ZJUSE (过时的三本软工生存 Tip)"/>
     </a>
     <a href="https://github.com/triplepiers/Crazy-ZZB">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Crazy-ZZB&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" />
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=Crazy-ZZB&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt="Crazy-ZZB (学位(要溜走了..."/>
     </a>
     </div>
 
@@ -32,7 +32,7 @@ Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
 <div align="center">
   <a href="https://jamboree.igem.org/2023/results#finalists">
-  <img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/JamboreeResult.png?raw=true" style="width:550px;" />
+  <img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/JamboreeResult.png?raw=true" style="width:550px;" alt="只是一个提交时间可视化图"/>
   </a>
 </div>
 
@@ -42,7 +42,7 @@ Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
   | A naive turtorial (including the official template) | A Wiki template in <span style="color:#3FBA84;"><b>VUE</b></span> (has NOT completed yet) |
   | :--: | :--: |
-  | <a href="https://github.com/triplepiers/iGEM24-WP-Tutorial"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=iGEM24-WP-Tutorial&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" /></a> | <a href="https://github.com/triplepiers/autoWiki"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=autoWiki&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" /></a> |
+  | <a href="https://github.com/triplepiers/iGEM24-WP-Tutorial"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=iGEM24-WP-Tutorial&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21" alt=""/>iGEM24-WP-Tutorial</a> | <a href="https://github.com/triplepiers/autoWiki"><img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=triplepiers&repo=autoWiki&title_color=ffffff&text_color=c9cacc&icon_color=3FBA84&bg_color=1d1f21"  alt="autoWiki"/></a> |
 
 ## ⚠️ 沉痛追悼
 
