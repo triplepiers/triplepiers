@@ -19,6 +19,10 @@ This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse
     </a>
     </div>
 
+- Commit Time: **A <span style="color:#3FBA84">total night owl</span>**
+  
+    ![Commit Time Radar](./imgs/github_commit_radar.png)
+
 ## About iGEM
 
 - Member of <a href="https://mp.weixin.qq.com/s/lsGOtzBY5XQWMQcOE7ttUg">ZJU-China 2023</a>, our
@@ -26,7 +30,7 @@ Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
 <div align="center">
   <a href="https://jamboree.igem.org/2023/results#finalists">
-  <img src="https://github.com/triplepiers/triplepiers/blob/main/JamboreeResult.png?raw=true" style="width:550px;" />
+  <img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/JamboreeResult.png?raw=true" style="width:550px;" />
   </a>
 </div>
 
@@ -42,5 +46,5 @@ Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
 | 事故现场 | 尖锐爆鸣 |
 | :--: | :--: |
-| <img align="center" src="https://github.com/triplepiers/triplepiers/blob/main/沉痛悼念.png?raw=true" style="width: 200px;" /> | <div align="left"><text>鄙人成功于 22 时许在尚未保存的项目根路径下执行 `rm -f *`，创飞自己</text><li>请及时使用 git 存档</li><li>请大家不要疲劳施工</li><li>请在 `.bashrc` 中，将 `rm -f *` 替换为移动至临时路径 </li><div>|
+| <img align="center" src="https://github.com/triplepiers/triplepiers/blob/main/imgs/沉痛悼念.png?raw=true" style="width: 200px;" /> | <div align="left"><text>鄙人成功于 22 时许在尚未保存的项目根路径下执行 `rm -f *`，创飞自己</text><li>请及时使用 git 存档</li><li>请大家不要疲劳施工</li><li>请在 `.bashrc` 中，将 `rm -f *` 替换为移动至临时路径 </li><div>|
 | 没图 | <div align="left"><text>这次成功把 `.bashrc` 创飞了</text><li>！！请及时使用 git 存档</li><li>记不清 `>>`(追加) 和 `>`(覆盖) 的人老实拿 vim 写吧</li><div>| |
