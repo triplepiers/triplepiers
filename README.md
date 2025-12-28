@@ -2,16 +2,24 @@
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=DotGothic16&pause=1000&color=3FBA84&center=true&width=435&lines=%E6%AD%A3%E8%A7%A3%E3%81%AF%E7%84%A1%E3%81%84%E3%82%93%E3%81%A0%E3%80%80%E8%B2%A0%E3%81%91%E3%81%AA%E3%82%93%E3%81%A6%E7%84%A1%E3%81%84%E3%82%93%E3%81%A0)" width="500px">
+  <table>
+    <tr>
+      <td>
+        This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse is <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr.C.B.</a>), and here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a>
+        <ul>
+          <li>🦉 A night owl</li> 
+          <li>⌛️ Working toward a master degree @<a href="https://www.zju.edu.cn/">ZJU</a></li>
+          <li>📪 <a href="mailto:yunfengshen.x86@gmail.com">Email me</a> if you have any suggestions or questions</li>
+        </ul>
+      </td>
+      <td>
+        <img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/github_commit_radar.png?raw=true" style="width: 350px;" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse is <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr.C.B.</a>), a <span style="color:#3FBA84">total night owl</span>.
-And here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a>
-
-- 📪 If you have any suggestions or questions, please mail to <a href="mailto:yunfengshen.x86@gmail.com">yunfengshen.x86@gmail.com</a>
-
-- Working toward a master degree @<a href="https://www.zju.edu.cn/">ZJU</a>
-  
-- Need some tips for Software Engineering @ZJU ?
+## Tips for Software Engineering @ZJU 
 
 <table>
   <tr>
@@ -23,12 +31,6 @@ And here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a
     </a></td>
   </tr>
 </table>
-
-
-
-<div align="center">
-  <img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/github_commit_radar.png?raw=true" style="width: 350px;" />
-</div>
     
 ## About iGEM
 
@@ -43,7 +45,7 @@ Wiki page is @<a href="https://2023.igem.wiki/zju-china/">here</a>.
 
 - If you are also responsible for Wiki, you may need:
 
-  🎉 Congratulations! [Official React template](https://gitlab.igem.org/templates/wiki-react-vite) now available!
+  > 🎉 Congratulations! [Official React Wiki template](https://gitlab.igem.org/templates/wiki-react-vite) now available!
 
   | A naive turtorial (including the official template) | A Wiki template in <span style="color:#3FBA84;"><b>VUE</b></span> (has NOT completed yet) |
   | :--: | :--: |
