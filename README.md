@@ -7,9 +7,20 @@
       <td>
         This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse is <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr.C.B.</a>):
         <ul>
-          <li>⌛️ Working toward a master degree @ <a href="https://www.zju.edu.cn/">ZJU</a></li>
           <li>🦉 A night owl, here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a></li>
+          <li>⌛️ Working toward a master degree @ <a href="https://www.zju.edu.cn/">ZJU</a></li>
           <li>🪳 If you recognize my avatar, here is the UID: 80212414</li>
+          <li>
+            <div>Front-End Lover with skill set</div>
+            <div>
+              <code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/></code>
+              <code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript"/></code>
+            	<code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png" alt="Tailwind CSS" title="Tailwind CSS"/></code>
+            	<code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" alt="React" title="React"/></code>
+            	<code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_js.png" alt="Next.js" title="Next.js"/></code>
+              <code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vue_js.png" alt="Vue.js" title="Vue.js"/></code>
+            </div>
+          </li>
           <li>📪 <a href="mailto:yunfengshen.x86@gmail.com">Email me</a> if you have any suggestions or questions</li>
         </ul>
       </td>
