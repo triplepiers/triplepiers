@@ -5,10 +5,11 @@
   <table>
     <tr>
       <td>
-        This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse is <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr.C.B.</a>), and here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a>
+        This is <span style="color:#3FBA84;"><b>Seabee</b></span> (my favorite racehorse is <a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%83%BC%E3%83%93%E3%83%BC">Mr.C.B.</a>):
         <ul>
-          <li>🦉 A night owl</li> 
-          <li>⌛️ Working toward a master degree @<a href="https://www.zju.edu.cn/">ZJU</a></li>
+          <li>⌛️ Working toward a master degree @ <a href="https://www.zju.edu.cn/">ZJU</a></li>
+          <li>🦉 A night owl, here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a></li>
+          <li>🪳 If you recognize my avatar, here is the UID: 80212414</li>
           <li>📪 <a href="mailto:yunfengshen.x86@gmail.com">Email me</a> if you have any suggestions or questions</li>
         </ul>
       </td>
