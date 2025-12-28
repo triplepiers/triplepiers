@@ -11,7 +11,7 @@
           <li>⌛️ Working toward a master degree @ <a href="https://www.zju.edu.cn/">ZJU</a></li>
           <li>🪳 If you recognize my avatar, here is the UID: 80212414</li>
           <li>
-            <div>Front-End Lover with skill set</div>
+            <div>💻 Front-End Lover with skill set</div>
             <div>
               <code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/></code>
               <code><img width="30" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" alt="TypeScript" title="TypeScript"/></code>
