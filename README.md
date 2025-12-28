@@ -12,14 +12,19 @@ And here is <a href="https://triplepiers.github.io/Notes_Collection/">my blog</a
 - Working toward a master degree @<a href="https://www.zju.edu.cn/">ZJU</a>
   
 - Need some tips for Software Engineering @ZJU ?
-    <div style="display: flex; width: 100%;">
-    <a href="https://github.com/triplepiers/Mad-at-ZJUSE">
-        <img align="center" src="https://github.com/triplepiers/triplepiers/blob/main/imgs/Mad-at-ZJUSE_card.png?raw=true" alt="Mad-at-ZJUSE (过时的三本软工生存 Tip)"/>
-    </a>
-    <a href="https://github.com/triplepiers/Crazy-ZZB">
+
+<table>
+  <tr>
+    <td><a href="https://github.com/triplepiers/Mad-at-ZJUSE">
+        <img align="center" src="https://github.com/triplepiers/triplepiers/blob/main/imgs/MAD-at-ZJUSE_card.png?raw=true" alt="Mad-at-ZJUSE (过时的三本软工生存 Tip)"/>
+    </a></td>
+    <td><a href="https://github.com/triplepiers/Crazy-ZZB">
         <img align="center" src="https://github.com/triplepiers/triplepiers/blob/main/imgs/Crazy-ZZB_card.png?raw=true" alt="Crazy-ZZB (学位要溜走了)"/>
-    </a>
-    </div>
+    </a></td>
+  </tr>
+</table>
+
+
 
 <div align="center">
   <img src="https://github.com/triplepiers/triplepiers/blob/main/imgs/github_commit_radar.png?raw=true" style="width: 350px;" />
