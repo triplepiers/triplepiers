@@ -22,12 +22,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Install Playwright browsers # 这一步至关重要！
+      - name: Install Playwright browsers
         run: playwright install --with-deps chromium
 
       - name: Run Script to Generate Card
         env:
-          # 从 GitHub Secrets 中读取 Token
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         run: python utils/RepoCard.py
 
@@ -36,13 +35,18 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 检查 imgs 目录下是否有符合条件的文件
-          # ls 命令如果找不到文件会返回非 0 状态码
+          # 1. 尝试将符合条件的文件加入暂存区
           if ls ./imgs/*_card.png 1> /dev/null 2>&1; then
             git add ./imgs/*_card.png
-            git commit -m "Update GitHub Activity Cards [$(date)]" || echo "No changes to commit"
-            git push
+            # 2. 检查暂存区中是否有受版本控制的文件发生了变化
+            # --porcelain 产生稳定的机器可读输出，如果为空则说明没有任何变化
+            if [ -n "$(git status --porcelain ./imgs/*_card.png)" ]; then
+              # 检测到图片内容更新
+              git commit -m "Update GitHub Activity Cards [$(date)]"
+              # 冲突解决
+              git pull origin main --rebase
+              git push origin main
+            fi
           else
-            echo "Error: No files matching ./imgs/*_card.png found!"
             exit 1
           fi
