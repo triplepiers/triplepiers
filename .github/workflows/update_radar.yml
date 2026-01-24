@@ -34,5 +34,15 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add imgs/github_commit_radar.png
-          # 只有当图片有变化时才提交，防止报错
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Radar Chart [$(date)]" && git push)
+          # 检查是否有实际变更
+          if ! git diff --quiet --cached; then
+            git commit -m "Update Radar Chart [$(date -u)]"
+
+            # 拉取远程最新变更并 rebase 当前提交
+            git pull --rebase origin main
+
+            # 推送（如果 rebase 成功）
+            git push origin main
+          else
+            echo "No changes detected. Skipping commit."
+          fi
