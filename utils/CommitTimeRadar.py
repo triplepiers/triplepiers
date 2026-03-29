@@ -30,7 +30,9 @@ def fetch_data(username, token):
     return hours
 
 def plot_advanced_radar(hours):
-    """绘制提交时间分布雷达图"""    
+    """绘制提交时间分布雷达图"""
+    if not hours: return        # No push data found, skip
+        
     # 1. 数据处理与步进采样
     counts = Counter(hours)
     total = len(hours)
