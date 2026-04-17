@@ -25,11 +25,15 @@ Selected frontend projects, ranging from web-game replicas to production-ready t
 
 ## 🔬 Research
 
-- Currently focusing on **Text-to-Efficient SQL** and related areas.
+Currently focusing on **Text-to-Efficient SQL** and related areas.
 
-- Two papers are currently under review ...
-  
-    => Details, open-source artifacts, and benchmarks will be updated soon.
+**Publications**
+
+- [Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation](#)  ![ISSTA 2026](https://img.shields.io/badge/ISSTA_2026-3FBA84?style=flat-square)
+
+**Ongoing Work**
+
+- 1 paper currently under review. Details, open-source artifacts & benchmarks will be updated soon.
 
 <br>
 
