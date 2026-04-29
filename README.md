@@ -31,9 +31,11 @@ Currently focusing on **Text-to-Efficient SQL** and related areas.
 
 - [Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation](#)  ![ISSTA 2026](https://img.shields.io/badge/ISSTA_2026-3FBA84?style=flat-square)
 
-**Ongoing Work**
-
 - 1 paper currently under review. Details, open-source artifacts & benchmarks will be updated soon.
+
+**Patents**
+
+- [CN121880073A] A Method for Automated Assessment and Mitigation of Third-Party Library API Incompatibilities in Large Language Model Code Completion
 
 <br>
 
