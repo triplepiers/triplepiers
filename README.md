@@ -29,9 +29,9 @@ Currently focusing on **Text-to-Efficient SQL** and related areas.
 
 **Publications**
 
-- [Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation](#)  ![ISSTA 2026](https://img.shields.io/badge/ISSTA_2026-3FBA84?style=flat-square)
+- [Evaluating Incompatible Third-party Library API Usage in LLM-based Code Completion](#) ![TOSEM 2026](https://img.shields.io/badge/TOSEM_2026-3FBA84?style=flat-square)
 
-- 1 paper currently under review. Details, open-source artifacts & benchmarks will be updated soon.
+- [Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation](#)  ![ISSTA 2026](https://img.shields.io/badge/ISSTA_2026-3FBA84?style=flat-square)
 
 **Patents**
 
