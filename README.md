@@ -34,7 +34,7 @@ Frontend engineering contributions to collaborative projects and open-source com
 | **autoWiki** | Vue-based Wiki template exploration | [GitHub Repo](https://github.com/triplepiers/autoWiki) |
 | **同调计划（Sync Project）** | Frontend development & interaction design | [Live Site](https://www.tongdiaojihua.com/) |
 
-
+<!--
 ## 🔬 Research
 
 Currently focusing on **Text-to-Efficient SQL** and related areas.
@@ -48,6 +48,7 @@ Currently focusing on **Text-to-Efficient SQL** and related areas.
 **Patents**
 
 - [CN121880073A] A Method for Automated Assessment and Mitigation of Third-Party Library API Incompatibilities in Large Language Model Code Completion
+-->
 
 ## 🧬 Leadership & Community
 
