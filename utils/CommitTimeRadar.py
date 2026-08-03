@@ -56,8 +56,6 @@ def fetch_owned_repos():
     for page in range(1, 1000):
         batch = github_get(
             "https://api.github.com/user/repos",
-            visibility="all",
-            affiliation="owner",
             type="owner",
             sort="full_name",
             direction="asc",
