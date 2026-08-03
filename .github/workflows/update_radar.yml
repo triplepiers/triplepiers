@@ -46,6 +46,15 @@ jobs:
       - name: Sync with remote
         run: git pull --rebase origin main
 
+      - name: Validate API token
+        env:
+          GH_STATS_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        run: |
+          if [ -z "$GH_STATS_TOKEN" ]; then
+            echo "::error::MY_GITHUB_TOKEN is unavailable. Check the repository secret name and workflow trigger context."
+            exit 1
+          fi
+
       - name: Run Script
         run: python utils/CommitTimeRadar.py
 
