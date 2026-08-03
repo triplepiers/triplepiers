@@ -10,9 +10,15 @@ from matplotlib.colors import LinearSegmentedColormap
 
 # --- 配置信息 ---
 USERNAME = "triplepiers"
-TOKEN = os.environ["GH_STATS_TOKEN"]  # GitHub Actions 中由 Secret 注入
+TOKEN = os.getenv("GH_STATS_TOKEN", "").strip() # GitHub Actions 中由 Secret 注入
 TIMEZONE_OFFSET = 8  # UTC+8
 
+
+if not TOKEN:
+    raise RuntimeError(
+        "GH_STATS_TOKEN is empty. Configure Actions secret MY_GITHUB_TOKEN "
+        "and map it to GH_STATS_TOKEN in the workflow."
+    )
 
 API_HEADERS = {
     "Accept": "application/vnd.github+json",
@@ -22,16 +28,26 @@ API_HEADERS = {
 
 
 def github_get(url, **params):
-    """请求 GitHub REST API；失败时显式报错，避免保留旧图片却不自知。"""
     response = requests.get(
         url,
         headers=API_HEADERS,
         params=params,
         timeout=30,
     )
-    response.raise_for_status()
-    return response.json()
 
+    if not response.ok:
+        try:
+            details = response.json().get("message", response.text)
+        except ValueError:
+            details = response.text
+
+        request_id = response.headers.get("X-GitHub-Request-Id", "unknown")
+        raise RuntimeError(
+            f"GitHub API request failed: HTTP {response.status_code}; "
+            f"message={details!r}; request_id={request_id}"
+        )
+
+    return response.json()
 
 def fetch_owned_repos():
     """获取当前 Token 所属账号拥有的全部 public + private 仓库。"""
